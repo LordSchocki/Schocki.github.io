@@ -1,5 +1,5 @@
 body{
-    background-color: #132A13;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(49,133,78,1) 1.9%, rgba(43,40,40,1) 100.2% );
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -21,7 +21,7 @@ section{
     border-radius: 10vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
 }
 .test{
@@ -33,7 +33,32 @@ section{
     width: 100%;
     height: 100%;
 }
+.title{
+    text-decoration: wavy;
+    margin-top: 5VH;
+    font-size: 50px;
+}
 * {
     text-align: center;
-    color: rgb(197, 200, 202);
+    color: #f0ded4
+}
+.ventiicon{
+    min-width: 10vh;
+    min-height: 10vh;
+    margin-top: 5vh;
+    width: 35vh;
+    height: 25vh;
+}
+.bracketicon{
+    min-height: 10vh;
+    max-height: 13vh;
+    min-width: 10vh;
+    max-width: 20vh;
+
+    margin-top: 13vh;
+}
+.starticons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

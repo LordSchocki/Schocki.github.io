@@ -1,13 +1,14 @@
-body{
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(49,133,78,1) 1.9%, rgba(43,40,40,1) 100.2% );
-    min-height: 100vh;
+body {
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(49,133,78,1) 1.9%, rgba(43,40,40,1) 100.2%);
+    background-size: cover;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: "Courgette", cursive;
+    min-height: 100vh;
+}
 
-    
-    }
 
 .courgette-regular {
     font-family: "Courgette", cursive;
@@ -15,13 +16,14 @@ body{
     font-style: normal;
   }
 section{
-    height: 100vh;
+    height: 100%;
     width: 95vh;
     border: 0px,solid,#ccc;
     border-radius: 10vh;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    
     flex-direction: column;
 }
 .test{
@@ -36,29 +38,65 @@ section{
 .title{
     text-decoration: wavy;
     margin-top: 5VH;
-    font-size: 50px;
+    font-size: 9vh;
+    margin-bottom: 3rem;
 }
 * {
     text-align: center;
     color: #f0ded4
 }
 .ventiicon{
-    min-width: 10vh;
-    min-height: 10vh;
-    margin-top: 5vh;
-    width: 35vh;
-    height: 25vh;
+    min-width: 20vh;
+    min-height: 20vh;
+    width: 70vh;
+    height: 50vh;
+    
 }
 .bracketicon{
-    min-height: 10vh;
-    max-height: 13vh;
-    min-width: 10vh;
-    max-width: 20vh;
-
-    margin-top: 12vh;
+    min-height: 20vh;
+    max-height: 26vh;
+    min-width: 20vh;
+    max-width: 40vh;
+    
+    margin-top: 11vh;
 }
 .starticons{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+#subTitle{
+    color: #d8beae;
+    font-size: 5vh;
+}
+.linkDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 4vw;
+}
+.linkDiv img{
+    width: auto;
+    height: 10vh;
+    flex-direction: row;
+
+}
+#xicon{
+    width: 13vh;
+    height: 12vh;
+}
+#githubIcon{
+    width: 14vh;
+    height: 14vh;
+}
+.aboutHeading{
+    font-size: 4vh;
+    font-style: italic;
+}
+
+.aboutHeading h3{
+    color: rgb(236, 203, 193);
+    margin-right: 8vh;
 }

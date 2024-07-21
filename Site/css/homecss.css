@@ -46,11 +46,14 @@ section{
     text-align: center;
     color: #f0ded4
 }
-.ventiicon{
+.ventiicon{ 
     min-width: 20vh;
     min-height: 20vh;
     width: 70vh;
     height: 50vh;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    transition-property: transform;
     
 }
 .bracketicon{

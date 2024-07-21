@@ -6,7 +6,8 @@ body {
     justify-content: center;
     align-items: center;
     font-family: "Courgette", cursive;
-    min-height: 100vh;
+    height: 100%;
+    
 }
 
 
@@ -17,7 +18,7 @@ body {
   }
 section{
     height: 100%;
-    width: 95vh;
+    width: 90%;
     border: 0px,solid,#ccc;
     border-radius: 10vh;
     display: flex;
@@ -99,4 +100,57 @@ section{
 .aboutHeading h3{
     color: rgb(236, 203, 193);
     margin-right: 8vh;
+}
+
+.break{
+    display: none;
+}
+
+html, body { 
+    height: 100%; 
+    margin: 0; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+  } 
+ 
+  @media (max-width: 1000px) {
+
+
+    .title {
+        font-size: 5vh;
+        margin-left: 2px;
+    }
+    #subTitle{
+        font-size: 3vh;
+    }
+    html, body { 
+        height: auto;
+        width: auto; 
+         
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+      } 
+
+    .break{
+        display: inline;
+    }
+
+    .ventiicon{
+        min-width: 15vh;
+        min-height: 15vh;
+        width: 50vh;
+        height: 35vh;
+        margin-right: 4vh;
+        
+    }
+    .bracketicon{
+        min-height: 12vh;
+        max-height: 17vh;
+        min-width: 20vh;
+        max-width: 40vh;
+        
+        margin-right:6 vh;
+    }
 }

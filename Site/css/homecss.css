@@ -171,6 +171,13 @@ html, body {
     margin-left: 2.3vh;
     margin-right: 1.8vh;
 }
+#secondAbout {
+    margin-top: 5vh;
+}
+#programIcon{
+    width: 14vh;
+    margin-left: 1vh;
+}
  
 @media (max-width: 1000px) {
 

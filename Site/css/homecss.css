@@ -111,6 +111,18 @@ section{
     display: none;
 }
 
+.pictureHeading{
+    align-content: center;
+
+}
+
+.pictureHeading img{
+    width: 50vh;
+    height: 50vh;
+    margin-bottom: 10vh;
+    
+}
+
 html, body { 
     height: 100%; 
     margin: 0; 
@@ -178,7 +190,10 @@ html, body {
     width: 14vh;
     margin-left: 1vh;
 }
- 
+#whatsUpHeading{
+    align-self: center;
+}
+
 @media (max-width: 1000px) {
 
 
@@ -265,6 +280,7 @@ html, body {
         display: flex; 
         align-items: center; 
         justify-content: center; 
+        margin-left: 3.5vh;
       } 
 
     .break{
@@ -337,6 +353,13 @@ html, body {
         height: 13vh;
       
           
+          
+      }
+
+    .aboutItems {
+       
+      height:auto ;
+        
           
       }
 

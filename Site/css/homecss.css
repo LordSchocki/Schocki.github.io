@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(49,133,78,1) 1.9%, rgba(43,40,40,1) 100.2%);
     background-size: cover;
@@ -36,6 +42,11 @@ section{
     width: 100%;
     height: 100%;
 }
+.normalGif{
+    width: 20vh;
+    height: 20vh; 
+}
+
 .title{
     text-decoration: wavy;
     margin-top: 5VH;
@@ -197,6 +208,12 @@ html, body {
 @media (max-width: 1000px) {
 
 
+
+    .normalGif{
+        width: 20%;
+        height: 20%; 
+    }
+
     .title {
         font-size: 5vh;
         margin-left: 2px;
@@ -216,6 +233,7 @@ html, body {
     .break{
         display: inline;
     }
+    
 
     .ventiicon{
         min-width: 15vh;
@@ -264,14 +282,24 @@ html, body {
 
 @media(max-width: 600px){
 
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .normalGif{
+        width: 30%;
+        height: 30%; 
+    }
 
     .title {
         font-size: 4vh;
-        margin-left: 3vh;
+    
     }
     #subTitle{
         font-size: 1.6vh;
-        margin-left: 2vh;
+        
     }
     html, body { 
         height: auto;
@@ -280,7 +308,8 @@ html, body {
         display: flex; 
         align-items: center; 
         justify-content: center; 
-        margin-left: 3.5vh;
+        justify-self: center;
+        margin-left: 0vh;
       } 
 
     .break{
@@ -292,11 +321,15 @@ html, body {
         min-height: 15vh;
         width: 50vh;
         height: 35vh;
-        margin-left: 6vh;
+    
         
     }
     .bracketicon{
         display: none;
+    }
+    .iconClass{
+        width: 1%;
+        height: 1%;
     }
 
     .linkDiv{
@@ -304,27 +337,25 @@ html, body {
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
-        gap: 4vw;
-        margin-left: 5.6vh;
+        gap: 3%;
+        
     }
     .linkDiv img{
-        width: auto;
-        height: 6vh;
+        
+        
         flex-direction: row;
     
     }
     #xicon{
-        width: 7vh;
-        height: 7vh;
+     
     }
     #githubIcon{
-        width: 9vh;
-        height: 9vh;
+        
     }
     .aboutHeading{
         font-size: 4vh;
         font-style: italic;
-        margin-left: 5vh;
+        
     }
     
     .aboutHeading h3{
@@ -333,7 +364,7 @@ html, body {
     }
     .aboutItem p {
         font-size: 2vh;
-        margin-bottom: 3vh ;
+       
       
           
           
@@ -342,36 +373,36 @@ html, body {
         gap: 0vh;
     }
     #languagesIcon{
-        width: 10vh;
         
-        margin-left: 4vh;
-        margin-right: 2vh;
     }
 
     .aboutItem img {
-        width: 17vh;
-        height: 13vh;
-      
+     
           
           
       }
 
     .aboutItems {
        
-      height:auto ;
-        
+     
           
       }
+
+    section {
+        width: 100%;
+        padding: 0 15px; /* Add some padding instead of margins */
+    }
+    
+    .title, #subTitle, .ventiicon, .linkDiv, .aboutHeading {
+        margin-left: 0; /* Remove all left margins */
+    }
 
 
     
 }
 
 @media(max-width: 800px){
-    #subTitle{
-        font-size: 2.6vh ;
-        margin-right: 4vh;
-    }
+   
     
 }
     
